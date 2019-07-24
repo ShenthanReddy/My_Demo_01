@@ -17,7 +17,7 @@ public class Demo_RTC {
 		String s= driver.switchTo().alert().getText();
 		System.out.println(s);
 		driver.switchTo().alert().accept();
-		  driver.close();
+		  driver.quit();
   }
   
 }
